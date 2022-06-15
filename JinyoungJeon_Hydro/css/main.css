@@ -1,0 +1,44 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+.display{
+    margin: 10px auto;
+    width: 500px;
+}
+
+.userInput{
+    margin: 10px auto;
+    width: 500px;
+}
+
+header{
+   background-color:#F0F8FF;
+    width: 700px;
+    height: 180px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+footer{
+    background-color:#F0F8FF;
+     width: 700px;
+     height: 70px;
+     margin: 10px auto;
+     text-align: center;
+ }
+
+ .image{
+     width: 600px;
+     height: 300px;
+     margin: auto;
+     display: block;
+ }
+
+ img{
+     width: 600px;
+ }

@@ -1,0 +1,64 @@
+<!-- Jinyoung Jeon, 991622283  -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jinyoung Jeon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/jeonjin.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Assignment #1</h1>
+        <p>Jinyoung (Kayla)
+            Jeon</p>
+        <p>991622283</p>
+        <p>SYST24444 - Moblie Web Application Development - Tuesdays 8 am </p>
+    </header>
+
+    <h2>Estimate of the Hydro Comsumption Charges</h2>
+
+    <div class="image">
+        <img src="images/hydro.jpg" alt="Hydro Energy">
+    </div>
+    <br><br>
+    <h3>Please Fill Out the Form Below.</h3>
+
+    <div class="userInput">
+
+        <p><label for="name"> Name : </label>
+            <input type="text" name="name" id="name" value="">
+        </p>
+        <p><label for="email"> Email Address : </label>
+            <input type="text" name="email" id="email" value="">
+        </p>
+        <p>Please enter hydro consumption in <span style="color:red;font-weight:bold"> kWh </span> during</p>
+        <li><label for="onHours"> On-Peak Hours : </label>
+            <input type="text" name="onHours" id="onHours" value="">
+        </li>
+        <br>
+        <li><label for="offHours"> Off-Peak Hours : </label>
+            <input type="text" name="offHours" id="offHours" value="">
+        </li>
+        <br>
+        <li><label for="midHours"> Mid-Peak Hours : </label>
+            <input type="text" name="midHours" id="midHours" value="">
+        </li>
+        <p><button onclick="saveData()" id="saveData"> <a href="estimate.html">Save/ Estimate the Charges</a></button>
+        </p>
+        <br>
+    </div>
+
+    <footer>
+        <p>2022-MAY-25</p>
+        <p>login name: jeonjin</p>
+    </footer>
+</body>
+
+</html>
